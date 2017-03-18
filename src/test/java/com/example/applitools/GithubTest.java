@@ -52,7 +52,7 @@ public class GithubTest extends TestCase implements UIStateChangeable
 	public void initializeEyes() {
 		
 		eyes = new Eyes();
-		String apiKey = "0BAQLC2ScFVpAwHwO2d3j9R5A15MBVOSBHmAP6kTXyE110";
+		String apiKey = "YOUR_API_KEY";
 		
 		eyes.setApiKey(apiKey);
 		BatchInfo batchInfo = new BatchInfo("Responsive");
